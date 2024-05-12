@@ -1,0 +1,33 @@
+git init --> To initialize
+git status --> To check status 
+git config --global use.name "My Name" 
+
+If you are outside of a git repository, git config user.name gives you the value of user.name at global level. When you make a commit, the associated user name is read at local level.
+
+git config --global user.email "github email account"
+
+git remote add origin https://github.com/Pranika69/Renew.git
+
+git log --> TO track changes
+
+The git remote add origin command is used to link a local repository with a remote repository. Here’s what it does:
+
+-Creates a new remote called origin pointing to the URL provided.
+-Allows you to push and pull code between your local repository and the remote one.
+
+
+touch filename.extension --> To create new file in local repo
+
+git add . --> To add  all new or changed files in current directory and sub directory to the staging area
+
+git commit -m "Message" --> The git commit command is used to save changes to your local repository in Git.
+
+-->After staging changes with git add, you can create a commit, which is like a snapshot of your repository at a specific point in time.
+
+git push origin branch_name --> To push changes made
+
+git checkout branchname --> TO checkout from the branchname
+
+git checkout -b new_branch_name --> To create new branch and copy the files from main branch and exist the main branch
+
+git pull origin master --> To pull changes made in local repository from remote repository
